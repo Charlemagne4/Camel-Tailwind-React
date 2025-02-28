@@ -1,0 +1,22 @@
+@import 'tailwindcss';
+
+@layer components {
+  .image {
+    @apply max-lg:w-[70%];
+  }
+  button {
+    @apply cursor-pointer bg-gray-200 px-4 py-2 hover:bg-gray-300 active:bg-gray-400;
+  }
+}
+
+/* @theme {
+  --color-primary: #1bc8d3;
+  --color-secondary: #292a2b;
+} */
+@theme {
+  --color-primary: #d4a857; /* Camel Yellow-Gold */
+  --color-secondary: #3b322c; /* Dark Brown (Trims & Interiors) */
+  --color-accent: #a67b5b; /* Warm Tan */
+  --color-light: #e3c77f; /* Desert Sand */
+  --color-dark: #292a2b; /* Deep Charcoal */
+}
